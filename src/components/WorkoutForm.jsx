@@ -24,7 +24,7 @@ const WorkoutForm = ({show,setShow}) => {
       const workout = {title, load, reps}
       const users = JSON.parse(localStorage.getItem('user'))
   
-      const response = await ax.post('https://backend-workout.vercel.app/api/workouts/' ,workout,{ headers: {
+      const response = await ax.post('https://backend-w-mu.vercel.app/api/workouts/' ,workout,{ headers: {
         'Authorization': `Bearer ${users.token}`
       }})
      
