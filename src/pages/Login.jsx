@@ -21,7 +21,7 @@ const navigate=useNavigate()
       setIsLoading(true)
    setError(null)
    
-   const response = await ax.post('https://backend-workout.vercel.app/api/user/login' ,{email,password} )
+   const response = await ax.post('https://backend-w-mu.vercel.app/api/user/login' ,{email,password} )
  
   
    navigate('/')
