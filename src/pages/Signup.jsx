@@ -15,7 +15,7 @@ const Signup = () => {
       setIsLoading(true)
    setError(null)
   //  https://bvc-46jr.onrender.com
-   const response = await ax.post('https://backend-workout.vercel.app/api/user/signup' ,{email,password} )
+   const response = await ax.post('https://backend-w-mu.vercel.app/api/user/signup' ,{email,password} )
  
   
  // save the user to local storage
